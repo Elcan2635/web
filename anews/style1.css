@@ -1,0 +1,56 @@
+/* form css start */
+form{
+    background-color: #00324a;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  form label{
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: sans-serif;
+    color:white ;
+  }
+  form label input{
+    background-color: rgb(19, 72, 186);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+  }
+  form button{
+    background-color: rgb(19, 72, 186);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+  }
+  .container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  button a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+  }
+  h1{
+    color: white;
+
+  }
+  .form{
+    background-color: rgb(5, 54, 54);
+  }
+  
+  /* form css end */
